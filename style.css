@@ -1,5 +1,5 @@
 /* Fonts */
-
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Fira+Sans&display=swap');
 
 /* Color Palette */
 :root {
@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Bitter', serif;
     scroll-behavior: smooth;
 }
 body {
@@ -107,11 +107,13 @@ header.sticky .logo, header.sticky .navigation li a {
     letter-spacing: 6px;
 }
 section {
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
+    height: 75vh;
 }
 .row {
     position: relative;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -121,8 +123,16 @@ section {
 }
 .titleText {
     color: var(--black-olive-2);
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 300;
+    padding: 5px;
+    text-align: center;
+}
+p {
+    color: var(--black-olive-2);
+    line-height: 1.5em;
+    text-indent: 10%;
+    margin-top: 10px;
 }
 .row .col .imgBx {
     position: relative;
@@ -185,5 +195,22 @@ section {
     }
     header.sticky .menuToggle {
         filter: invert(0);
+    }
+    section {
+        padding: 20px;
+    }
+    .banner .content h2 {
+        font-size: 3em;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .row .col {
+        position: relative;
+        width: 100%;
+    }
+    .row .col .imgBx {
+        height: 300px;
+        margin-top: 20px;
     }
 }
