@@ -19,7 +19,6 @@
     scroll-behavior: smooth;
 }
 body {
-    background: var(--bone);
     min-height: 200vh;
 }
 header {
@@ -92,7 +91,7 @@ header.sticky .logo, header.sticky .navigation li a {
     font-size: 1em;
     color: white;
 }
-.btn {
+.button {
     font-size: 1em;
     color: var(--black-olive-2);
     background: var(--lime-green);
@@ -103,12 +102,13 @@ header.sticky .logo, header.sticky .navigation li a {
     letter-spacing: 3px;
     transition: 0.6s;
 }
-.btn:hover {
+.button:hover {
     letter-spacing: 6px;
 }
 section {
     padding: 50px 100px 0 100px;
     height: 75vh;
+    background: var(--bone);
 }
 .row {
     position: relative;
@@ -160,7 +160,7 @@ p {
 .cards {
     width: 300px;
     margin: 10px;
-    background-color: white;
+    background-color: var(--ash-gray);
     border-radius: 15px;
     transition: 0.3s;
 }
@@ -200,6 +200,9 @@ p {
 }
 .card-btn:hover {
     letter-spacing: 6px;
+}
+.carousel-item {
+    width: 200px;
 }
 
 @media (min-width: 1350px) {
