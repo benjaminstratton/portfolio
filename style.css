@@ -127,7 +127,7 @@ section {
     padding: 5px;
     text-align: center;
 }
-p {
+.row .column p {
     color: var(--black-olive-2);
     line-height: 1.5em;
     text-indent: 10%;
@@ -206,11 +206,43 @@ p {
 }
 .projects {
     height: 100%;
+    padding-bottom: 25px;
+}
+.projects span {
+    font-size: 1.5em;
+}
+footer {
+    background: var(--black-olive-2);
+}
+footer h5 {
+    color: var(--lime-green);
+    text-align: left;
+}
+footer p {
+    color: var(--bone);
+    text-align: left;
+}
+footer p a {
+    text-decoration: none;
+    color: var(--bone);
+}
+footer p a:hover {
+    color: var(--lime-green);
+}
+footer p i, footer hr, strong {
+    color: var(--lime-green);
 }
 
 @media (min-width: 1400px) {
     .cards {
         margin: 10px 50px;
+    }
+    .row .column p, .projects p {
+        line-height: 2em;
+        font-size: 1.2em;
+    }
+    .projects span {
+        font-size: 2em;
     }
 }
 
@@ -280,5 +312,11 @@ p {
     .row .column .imgBx {
         min-height: 650px;
         margin-top: 20px;
+    }
+    footer h5 {
+        text-align: center;
+    }
+    footer p {
+        text-align: center;
     }
 }
