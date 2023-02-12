@@ -74,7 +74,7 @@ header.sticky .logo, header.sticky .navigation li a {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url(forest.jpg);
+    background: url(images/forest.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -293,14 +293,14 @@ footer p i, footer hr, strong {
         position: relative;
         width: 40px;
         height: 40px;
-        background: url(menu.png);
+        background: url(images/menu.png);
         filter: invert(1);
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: center;
     }
     .menuToggle.active {
-        background: url(close.png);
+        background: url(images/close.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
