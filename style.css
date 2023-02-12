@@ -18,6 +18,8 @@
     font-family: 'Bitter', serif;
     scroll-behavior: smooth;
 }
+
+/* Header */
 header {
     position: fixed;
     top: 0;
@@ -47,6 +49,7 @@ header .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 header .navigation li {
     position: relative;
@@ -97,17 +100,16 @@ header.sticky .logo, header.sticky .navigation li a {
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
     letter-spacing: 3px;
     transition: 0.6s;
 }
-.github-button {
-    display: flex;
-    align-items: center;
-}
 .button:hover, .projects-button:hover {
     letter-spacing: 6px;
 }
+
+/* About Section */
 section {
     padding: 50px 100px 0 100px;
     height: 75vh;
@@ -150,6 +152,8 @@ section {
     object-fit: cover;
     border-radius: 15px;
 }
+
+/* Experience Section */
 .experience {
     display: flex;
     justify-content: center;
@@ -204,6 +208,8 @@ section {
 .card-btn:hover {
     letter-spacing: 6px;
 }
+
+/* Projects Section */
 .carousel-item {
     width: 200px;
 }
@@ -214,6 +220,8 @@ section {
 .projects span {
     font-size: 1.5em;
 }
+
+/* Links Section */
 footer {
     background: var(--black-olive-2);
 }
@@ -236,6 +244,7 @@ footer p i, footer hr, strong {
     color: var(--lime-green);
 }
 
+/* Format for Larger Screens */
 @media (min-width: 1400px) {
     .cards {
         margin: 10px 50px;
@@ -249,6 +258,7 @@ footer p i, footer hr, strong {
     }
 }
 
+/* Format for Smaller Screens */
 @media (max-width: 900px) {
     header, header.sticky {
         padding: 10px 20px;
@@ -321,5 +331,8 @@ footer p i, footer hr, strong {
     }
     footer p {
         text-align: center;
+    }
+    .projects-button {
+        margin-bottom: 40px;
     }
 }
