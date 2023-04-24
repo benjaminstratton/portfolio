@@ -43,6 +43,7 @@ header .logo {
     text-decoration: none;
     font-size: 2em;
     letter-spacing: 3px;
+    transition: 0.6s;
 }
 header .navigation {
     position: relative;
@@ -64,11 +65,14 @@ header .navigation li a {
     font-weight: 500px;
     transition: 0.6s;
 }
-header .navigation li a:hover {
-    color: var(--lime-green);
+header .logo:hover, header .navigation li a:hover {
+    color: var(--battleship-gray);
 }
 header.sticky .logo, header.sticky .navigation li a {
     color: var(--bone);
+}
+header.sticky .logo:hover, header.sticky .navigation li a:hover {
+    color: var(--lime-green);
 }
 .banner {
     position: relative;
@@ -88,6 +92,7 @@ header.sticky .logo, header.sticky .navigation li a {
     font-size: 5em;
     color: var(--lime-green);
     padding: 20px;
+    text-shadow: 2px 2px var(--black-olive-2);
 }
 .banner .content p {
     font-size: 1em;
