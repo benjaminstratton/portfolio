@@ -270,7 +270,7 @@ footer p i, footer hr, strong {
 }
 
 /* Format for Smaller Screens */
-@media (max-width: 900px) {
+@media (max-width: 990px) {
     header, header.sticky {
         padding: 10px 20px;
 
