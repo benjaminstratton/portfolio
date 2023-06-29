@@ -1,178 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Benjamin Stratton">
-    <meta property="og:image" content="https://www.benjamin-stratton.com/images/LinkPreviewImage.png">
-    <meta property="og:image:type" content="image/png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Benjamin Stratton" />
+    <meta
+      property="og:image"
+      content="https://www.benjamin-stratton.com/images/LinkPreviewImage.png"
+    />
+    <meta property="og:image:type" content="image/png" />
     <title>Benjamin Stratton</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <header>
-        <a href="#" class="logo">Benjamin Stratton</a>
-        <div class="menuToggle" onclick="toggleMenu()"></div>
-        <ul class="navigation">
-            <li><a href="#banner" onclick="toggleMenu()">HOME</a></li>
-            <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">EXPERIENCE</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
-            <li><a href="#links" onclick="toggleMenu()">LINKS</a></li>
-        </ul>
+      <a href="#" class="logo">Benjamin Stratton</a>
+      <div class="menuToggle" onclick="toggleMenu()"></div>
+      <ul class="navigation">
+        <li><a href="#banner" onclick="toggleMenu()">HOME</a></li>
+        <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">EXPERIENCE</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+        <li><a href="#links" onclick="toggleMenu()">LINKS</a></li>
+      </ul>
     </header>
     <section class="banner" id="banner">
-        <div class="content">
-            <h2>Software Engineer</h2>
-            <p>Full Stack Developer | QA Analyst | Entrepreneur</p>
-            <a href="#links" class="button">Contact Me!</a>
-        </div>
+      <div class="content">
+        <h2>Software Engineer</h2>
+        <p>Full Stack Developer | QA Analyst | Entrepreneur</p>
+        <a href="#links" class="button">Contact Me!</a>
+      </div>
     </section>
     <section class="about" id="about">
-        <div class="row">
-            <div class="column">
-                <h2 class="titleText">About Me</h2>
-                <p>Over the course of the past two years, I have leveraged my expertise to help startup companies establish acquisition channels and manage sales ecosystems, thereby honing my sales, marketing, and business acumen. In my previous roles, I exceeded sales targets, securing over half a million in revenue as a sales representative in my first year and delivering an average 500% boost in sales as a business consultant through adept management of acquisition and marketing processes. Heeding my superiors' counsel, I embarked on a journey of continuous learning and upskilling that culminated in my foray into software engineering.</p>
-                <p>Currently, I am eager to join a dynamic and forward-thinking team of developers to apply my multifaceted background in crafting innovative solutions that bridge the divide between businesses and consumers. Armed with my robust professional background, unflagging passion for learning, and cutting-edge software engineering skill set, I am confident of making a meaningful impact and achieving continued success.
-                </p>
-            </div>
-            <div class="column">
-                <div class="imgBx">
-                    <img src="images/BenLookingFresh.png">
-                </div>
-            </div>
+      <div class="row">
+        <div class="column">
+          <h2 class="titleText">About Me</h2>
+          <p>
+            Over the course of the past two years, I have leveraged my expertise
+            to help startup companies establish acquisition channels and manage
+            sales ecosystems, thereby honing my sales, marketing, and business
+            acumen. In my previous roles, I exceeded sales targets, securing
+            over half a million in revenue as a sales representative in my first
+            year and delivering an average 500% boost in sales as a business
+            consultant through adept management of acquisition and marketing
+            processes. Heeding my superiors' counsel, I embarked on a journey of
+            continuous learning and upskilling that culminated in my foray into
+            software engineering.
+          </p>
+          <p>
+            Currently, I am eager to join a dynamic and forward-thinking team of
+            developers to apply my multifaceted background in crafting
+            innovative solutions that bridge the divide between businesses and
+            consumers. Armed with my robust professional background, unflagging
+            passion for learning, and cutting-edge software engineering skill
+            set, I am confident of making a meaningful impact and achieving
+            continued success.
+          </p>
         </div>
+        <div class="column">
+          <div class="imgBx">
+            <img src="images/BenLookingFresh.png" />
+          </div>
+        </div>
+      </div>
     </section>
     <section class="experience" id="experience">
-        <div class="card-title">
-            <h2 class="titleText">Experience</h2>
+      <div class="card-title">
+        <h2 class="titleText">Experience</h2>
+      </div>
+      <div class="cards">
+        <div class="card-img">
+          <img src="images/sales.png" />
         </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="images/sales.png">
-            </div>
-            <div class="card-body">
-                <h2>Sales Representative</h2>
-                <p>Proactively identified and nurtured qualified leads to surpass the milestone of $500k in cash collected within my first eight months.</p>
-            </div>
+        <div class="card-body">
+          <h2>Sales Representative</h2>
+          <p>
+            Proactively identified and nurtured qualified leads to surpass the
+            milestone of $500k in cash collected within my first eight months.
+          </p>
         </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="images/consulting.png">
-            </div>
-            <div class="card-body">
-                <h2>Business Consultant</h2>
-                <p>Revamped the sales cycle, executed novel systems, and provided expert guidance resulting in a 500% surge in sales.</p>
-            </div>
+      </div>
+      <div class="cards">
+        <div class="card-img">
+          <img src="images/consulting.png" />
         </div>
-        <div class="cards">
-            <div class="card-img">
-                <img src="images/coding.png">
-            </div>
-            <div class="card-body">
-                <h2>SEI Student</h2>
-                <p>Completed 500+ hour Software Engineering Immersive course, gaining expertise in technical skills, research, project management, and teamwork.</p>
-            </div>
+        <div class="card-body">
+          <h2>Business Consultant</h2>
+          <p>
+            Revamped the sales cycle, executed novel systems, and provided
+            expert guidance resulting in a 500% surge in sales.
+          </p>
         </div>
-        <div class="card-footer">
-            <a href="images/Benjamin Stratton's Resume (May 2023).docx.pdf" target="_blank" rel="noopener noreferrer" class="card-btn">Check out my resume!</a>
+      </div>
+      <div class="cards">
+        <div class="card-img">
+          <img src="images/coding.png" />
         </div>
+        <div class="card-body">
+          <h2>SEI Student</h2>
+          <p>
+            Completed 500+ hour Software Engineering Immersive course, gaining
+            expertise in technical skills, research, project management, and
+            teamwork.
+          </p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <a
+          href="images/Benjamin Stratton's Resume (June 2023).docx.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="card-btn"
+          >Check out my resume!</a
+        >
+      </div>
     </section>
     <section class="projects" id="projects">
-        <div class="row">
-            <div class="col-sm-12 col-lg-6 my-auto">
-                <h2 class="titleText">Projects</h2>
-                <p><span>Push It: </span>With over 3+ years of personal training experience and several more in my own personal training regimen, I have consistently been asked to share routines and tips for getting started! Therefore, Push-it was born to do two fundamental things: provide sample workout routines and a space to track workouts!</p>
-                <p><span>Restaurant Finder: </span>How many times have you gone down a rabbit hole trying to figure out where to eat? Restaurant Finder solves that problem by providing you a platform to view highly rated restaurants and add your own picks as well!</p>
-                <p><span>Coming Soon: </span>ChatGPT API and Ecommerce Website in development.</p>
-                <div class="text-center"><a href="https://github.com/benjaminstratton" target="_blank" rel="noopener noreferrer" class="projects-button">Check out my projects!</a></div>
-            </div>
-            <!-- Bootstrap Carousel -->
-            <div class="col-sm-12 col-lg-6 my-auto">
-                <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
-                    <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/pushIt_screenshot.png" class="d-block w-100" alt="MyCareer">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/restaurantFinder_screenshot.png" class="d-block w-100" alt="Spacebattle">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/coming-soon-placeholder.jpeg" class="d-block w-100" alt="landscapper">
-                    </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 my-auto">
+          <h2 class="titleText">Projects</h2>
+          <p>
+            <span>Promptopia: </span>Welcome to the first ever social media application built for the generation of AI. Promptopia is an open-source AI prompting tool for the modern world to discover, create, and share creative prompts.
+          </p>
+          <p>
+            <span>Push It: </span>With over 3+ years of personal training
+            experience and several more in my own personal training regimen, I
+            have consistently been asked to share routines and tips for getting
+            started! Therefore, Push-it was born to do two fundamental things:
+            provide sample workout routines and a space to track workouts!
+          </p>
+          <p>
+            <span>Restaurant Finder: </span>How many times have you gone down a
+            rabbit hole trying to figure out where to eat? Restaurant Finder
+            solves that problem by providing you a platform to view highly rated
+            restaurants and add your own picks as well!
+          </p>
+          <div class="text-center">
+            <a
+              href="https://github.com/benjaminstratton"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects-button"
+              >Check out my projects!</a
+            >
+          </div>
         </div>
+        <!-- Bootstrap Carousel -->
+        <div class="col-sm-12 col-lg-6 my-auto">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel carousel-dark slide"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img
+                  src="images/promptopia_screenshot.png"
+                  class="d-block w-100"
+                  alt="promptopia_screenshot"
+                />
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="images/pushIt_screenshot.png"
+                  class="d-block w-100"
+                  alt="pushIt_screenshot"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/restaurantFinder_screenshot.png"
+                  class="d-block w-100"
+                  alt="restaurantFinder_screenshot"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <footer id="links" class="pt-5 pb-4">
-        <div class="container text-center">
-            <div class="row text-center">
-                <div class="col-sm-12 col-md-8 col-lg-4 mx-auto mt-3">
-                    <h5 class="mb-4 font-weight-bold">Benjamin Stratton</h5>
-                    <p>Don't hesitate to reach out and connect with me for potential collaborations or opportunities to work together, I'm excited to hear from you!</p>
-                </div>
-                <div class="col-sm-12 col-md-8 col-lg-3 mx-auto mt-3">
-                    <h5 class="mb-4 font-weight-bold">Important Links</h5>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
-                            <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"/>
-                        </svg>
-                        <a href="images/Benjamin Stratton's Resume (May 2023).docx.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-                    </p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                        </svg>
-                        <a href="https://www.linkedin.com/in/benjaminbstratton" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                    </p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                        <a href="https://github.com/benjaminstratton" target="_blank" rel="noopener noreferrer">Github</a>
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-8 col-lg-3 mx-auto mt-3">
-                    <h5 class="mb-4 font-weight-bold">Contact</h5>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"/>
-                        </svg> Wallingford, CT 06451</p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                        </svg> <a href="mailto:benstratton100@gmail.com">benstratton100@gmail.com</a></p>
-                    <p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg> <a href="tel:+18086461106">(808) 646-1106</a></p>
-                </div>
-            </div>
-            <hr class="mb-4">
-            <div class="row align-items-center">
-                <div class="col-md-7 col-lg-8">
-                    <p>Copyright @2023 All rights reserved by: <strong>Benjamin Stratton</strong></p>
-                </div>
-            </div>
+      <div class="container text-center">
+        <div class="row text-center">
+          <div class="col-sm-12 col-md-8 col-lg-4 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold">Benjamin Stratton</h5>
+            <p>
+              Don't hesitate to reach out and connect with me for potential
+              collaborations or opportunities to work together, I'm excited to
+              hear from you!
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold">Important Links</h5>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-file-earmark-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755z"
+                />
+              </svg>
+              <a
+                href="images/Benjamin Stratton's Resume (June 2023).docx.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resume</a
+              >
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-linkedin"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+              <a
+                href="https://www.linkedin.com/in/benjaminbstratton"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                />
+              </svg>
+              <a
+                href="https://github.com/benjaminstratton"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github</a
+              >
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-8 col-lg-3 mx-auto mt-3">
+            <h5 class="mb-4 font-weight-bold">Contact</h5>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"
+                />
+              </svg>
+              Wallingford, CT 06451
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-envelope"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                />
+              </svg>
+              <a href="mailto:benstratton100@gmail.com"
+                >benstratton100@gmail.com</a
+              >
+            </p>
+            <p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                />
+              </svg>
+              <a href="tel:+18086461106">(808) 646-1106</a>
+            </p>
+          </div>
         </div>
+        <hr class="mb-4" />
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p>
+              Copyright @2023 All rights reserved by:
+              <strong>Benjamin Stratton</strong>
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="app.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
